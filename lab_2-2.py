@@ -2,6 +2,7 @@
 
 def party_invites(lst):
     for name in lst:
-        print("Hi {0}, you're invited to my party")
+        print("Hi {0}, You're invited to my party".format(name))
 
-party_invites        
+
+party_invites(["Micheal", "John", "Steve"])
